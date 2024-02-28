@@ -1,16 +1,16 @@
 ---
 - summary: |
     Проверка возможности переключения языка.
-environment: |
+ environment: |
     «Яндекс Браузер», 24.1.1.928 (64-bit)
    ОС Windows 10 Домашняя 19045.4046
-steps-to-reproduce: |
+ steps-to-reproduce: |
     1.нажимаем на меню "language"
     2.В выдвигающемся меню выбираем "Russian"
     3.Язык сайта должен поменятся на Русский
-expected-result: |
+ expected-result: |
     Страница и все вкладки полностью переведены на Русский язык.
-actual-result: |
+ actual-result: |
     Не вся страница и не все вкладки переведены на Русский язык.
 
 - summary: |
